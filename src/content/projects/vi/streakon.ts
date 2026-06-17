@@ -1,0 +1,24 @@
+import tiktokClone0 from "../../../assets/images/projects/streakon/streakon-0.webp";
+
+import type { ProjectContent } from "../../types";
+
+export default {
+  title: "tiktok-clone",
+  theme: "dark",
+  tags: ["next", "typescript", "react", "tailwind"],
+  live: "https://tiktok-clone-lac.vercel.app",
+  source: "https://github.com/Thanhlong0912/tiktok-clone",
+  description:
+    "Dự án Next.js 13 công khai cho trải nghiệm mạng xã hội video theo phong cách TikTok.<br/><br/>Đây là repository công khai được cập nhật gần đây nhất trên GitHub profile và sử dụng TypeScript cho phần ứng dụng.",
+  components: [
+    {
+      type: "media",
+      props: {
+        type: "image",
+        src: tiktokClone0,
+        alt: "Bản xem trước ứng dụng TikTok Clone trên mobile",
+        caption: "Ý tưởng ứng dụng video trên mobile",
+      },
+    },
+  ],
+} as const satisfies ProjectContent;

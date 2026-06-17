@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /legal
+Disallow: /legal.html
+Disallow: /vi/legal
+Disallow: /vi/legal.html
+Disallow: /privacy
+Disallow: /privacy.html
+Disallow: /vi/privacy
+Disallow: /vi/privacy.html
