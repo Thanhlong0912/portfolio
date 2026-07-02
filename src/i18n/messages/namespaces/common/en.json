@@ -1,7 +1,7 @@
 {
   "about": "About",
-  "about-intro": "Developer based in Ho Chi Minh City.<br />Builds web applications with JavaScript, TypeScript, React, Redux, Tailwind CSS, Node.js, Express, MongoDB, Mongoose.",
-  "about-tagline": "Builds practical web apps with a JavaScript and TypeScript stack across React, Node.js, MongoDB.",
+  "about-intro": "Full-stack developer based in Ho Chi Minh City.<br />I design and ship web apps end to end — from React interfaces to Node.js APIs and MongoDB data models — with a focus on clean architecture and the details that make a product feel right.",
+  "about-tagline": "I turn ideas into shipped, production web apps — React on the front, Node.js and MongoDB behind it, TypeScript throughout.",
   "back-to-home": "Back to home",
   "original-concept-by": "Originally created by",
   "contact": "Contact",
@@ -10,7 +10,7 @@
   "enable-sounds": "Enable sounds",
   "get-in-touch": "Get in touch",
   "go-to": "Go to",
-  "job-title": "Developer",
+  "job-title": "Full-Stack Developer",
   "lets-work-together": "Let's work<br/> together!",
   "legal": "Legal Notice",
   "live-view": "Live View",

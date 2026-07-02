@@ -9,7 +9,7 @@ export default {
   tags: ["html", "css", "javascript"],
   source: "https://github.com/Thanhlong0912/WebSiteGomSuBatTrang",
   description:
-    "A public website project for Bat Trang ceramics, listed as one of the pinned repositories on the GitHub profile.<br/><br/>The repository language is HTML, with supporting CSS and JavaScript for the website experience.",
+    "A brand website for Bat Trang ceramics — a traditional Vietnamese craft — built with HTML, CSS, and JavaScript.<br/><br/>A product storefront that pairs a warm visual identity with clean layout work, translating a heritage craft into a modern, browsable web experience.",
   components: [
     {
       type: "media",

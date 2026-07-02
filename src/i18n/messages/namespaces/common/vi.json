@@ -1,7 +1,7 @@
 {
   "about": "Giới thiệu",
-  "about-intro": "Lập trình viên JavaScript full-stack tại TP Hồ Chí Minh.<br/>Xây dựng ứng dụng web với JavaScript, TypeScript, React, Redux, Tailwind CSS, Node.js, Express, MongoDB, Mongoose.",
-  "about-tagline": "Xây dựng ứng dụng web thực tế với JavaScript và TypeScript trên React, Node.js, MongoDB.",
+  "about-intro": "Lập trình viên full-stack tại TP Hồ Chí Minh.<br/>Tôi thiết kế và xây dựng ứng dụng web từ đầu đến cuối — từ giao diện React đến API Node.js và mô hình dữ liệu MongoDB — chú trọng kiến trúc gọn gàng và những chi tiết khiến sản phẩm hoàn thiện.",
+  "about-tagline": "Tôi biến ý tưởng thành ứng dụng web chạy thật — React ở giao diện, Node.js và MongoDB phía sau, TypeScript xuyên suốt.",
   "back-to-home": "Quay về trang chủ",
   "original-concept-by": "Ý tưởng gốc của",
   "contact": "Liên hệ",

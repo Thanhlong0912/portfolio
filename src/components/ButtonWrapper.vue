@@ -34,9 +34,16 @@ const classes = computed(() => [
   text-transform: uppercase;
   background-color: transparent;
   transition:
-    background-color 0.1s ease-in-out,
-    color 0.1s ease-in-out,
-    border-color 0.1s ease-in-out;
+    background-color 0.25s var(--ease-smooth),
+    color 0.25s var(--ease-smooth),
+    border-color 0.25s var(--ease-smooth),
+    transform 0.2s var(--ease-smooth);
+
+  @include mixins.hover {
+    &:active {
+      transform: scale(0.96);
+    }
+  }
 
   &-rounded {
     border-radius: 50%;

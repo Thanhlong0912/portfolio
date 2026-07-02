@@ -9,7 +9,7 @@ export default {
   live: "https://tiktok-clone-lac.vercel.app",
   source: "https://github.com/Thanhlong0912/tiktok-clone",
   description:
-    "Dự án Next.js 13 công khai cho trải nghiệm mạng xã hội video theo phong cách TikTok.<br/><br/>Đây là repository công khai được cập nhật gần đây nhất trên GitHub profile và sử dụng TypeScript cho phần ứng dụng.",
+    "Ứng dụng mạng xã hội video theo phong cách TikTok, xây dựng trên Next.js 13 với App Router và TypeScript xuyên suốt.<br/><br/>Feed video dạng dọc điều hướng bằng vuốt, phát video, trang cá nhân và kiến trúc component có thể mở rộng — loại giao diện nhiều tương tác nơi trạng thái UI và hiệu năng phát video phải luôn đồng bộ.",
   components: [
     {
       type: "media",

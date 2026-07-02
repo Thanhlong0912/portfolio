@@ -10,7 +10,7 @@ export default {
   live: "https://yoloshop123.netlify.app",
   source: "https://github.com/Thanhlong0912/YoloShop",
   description:
-    "A public shop interface project from the pinned GitHub repositories.<br/><br/>The repository is primarily CSS, with a front-end focus that matches the profile stack around HTML, CSS, JavaScript, and UI implementation.",
+    "A responsive fashion e-commerce storefront built from scratch with hand-crafted HTML, CSS, and vanilla JavaScript.<br/><br/>Product grids, a promotional slider, and a checkout-oriented layout — a front-end study in getting spacing, typography, and responsive breakpoints right without leaning on a framework.",
   components: [
     {
       type: "media",

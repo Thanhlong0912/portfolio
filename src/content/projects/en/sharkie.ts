@@ -9,7 +9,7 @@ export default {
   live: "https://the-movie-phi.vercel.app",
   source: "https://github.com/Thanhlong0912/TheMovie",
   description:
-    "A public movie discovery application from the pinned GitHub profile projects.<br/><br/>The project is written in JavaScript and has a live Vercel deployment for browsing the app.",
+    "A movie discovery app built in React that pulls live data from a film API to browse, search, and explore titles.<br/><br/>Async data fetching, dynamic detail views, and a responsive React component layout — deployed on Vercel and browsable end to end.",
   components: [
     {
       type: "media",

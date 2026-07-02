@@ -117,7 +117,7 @@ onUnmounted(() => {
     z-index: -1;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.3s var(--ease-smooth);
   }
 
   @include mixins.hover {
@@ -175,7 +175,7 @@ onUnmounted(() => {
 
   &-button {
     &-arrow {
-      transition: transform 0.1s ease-in-out;
+      transition: transform 0.3s var(--ease-smooth);
       width: 100%;
       transform: rotate(calc(var(--hover) * -45deg));
     }
@@ -187,8 +187,8 @@ onUnmounted(() => {
     object-fit: cover;
 
     &-container {
-      transition: transform 0.1s ease-in-out;
-      transform: scale(calc(1 + var(--hover) * 0.02));
+      transition: transform 0.5s var(--ease-smooth);
+      transform: scale(calc(1 + var(--hover) * 0.04));
       aspect-ratio: 16/9;
     }
 
@@ -224,18 +224,21 @@ onUnmounted(() => {
   &-copys {
     display: flex;
     flex-direction: column;
+    gap: var(--space-xxs);
   }
 
   &-title {
     font-size: var(--font-size-title-xs);
     font-weight: 700;
     color: var(--color-text-400);
+    letter-spacing: 0.01em;
   }
 
   &-description {
     font-size: var(--font-size-md);
     color: var(--color-text-300);
     font-weight: 500;
+    line-height: var(--line-height-copy);
   }
 }
 </style>

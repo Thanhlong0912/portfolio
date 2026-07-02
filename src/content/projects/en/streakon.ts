@@ -9,7 +9,7 @@ export default {
   live: "https://tiktok-clone-longbi.vercel.app",
   source: "https://github.com/Thanhlong0912/tiktok-clone",
   description:
-    "A public Next.js 13 project for a TikTok-style social video experience.<br/><br/>This is the most recently updated public repository on the GitHub profile and uses TypeScript for the app code.",
+    "A TikTok-style social video app built on Next.js 13 with the App Router and TypeScript end to end.<br/><br/>A vertical, swipe-driven feed with video playback, profiles, and a component architecture designed to scale — the kind of interaction-heavy interface where UI state and playback performance have to stay in sync.",
   components: [
     {
       type: "media",

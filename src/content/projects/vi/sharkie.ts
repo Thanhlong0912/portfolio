@@ -9,7 +9,7 @@ export default {
   live: "https://the-movie-phi.vercel.app",
   source: "https://github.com/Thanhlong0912/TheMovie",
   description:
-    "Ứng dụng khám phá phim công khai trong nhóm dự án được ghim trên GitHub profile.<br/><br/>Dự án viết bằng JavaScript và có bản triển khai Vercel để truy cập trực tiếp.",
+    "Ứng dụng khám phá phim xây dựng bằng React, lấy dữ liệu trực tiếp từ API phim để duyệt, tìm kiếm và khám phá tựa phim.<br/><br/>Tải dữ liệu bất đồng bộ, trang chi tiết động và bố cục component React responsive — triển khai trên Vercel và duyệt được từ đầu đến cuối.",
   components: [
     {
       type: "media",

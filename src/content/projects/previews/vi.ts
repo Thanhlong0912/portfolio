@@ -10,24 +10,24 @@ export default [
     title: "tiktok-clone",
     slug: "streakon",
     thumbnail: thumbnailStreakon,
-    description: "Ứng dụng kiểu TikTok bằng Next.js 13",
+    description: "Next.js 13 · TypeScript · feed video xã hội",
   },
   {
     title: "WebSiteGomSuBatTrang",
     slug: "particles",
     thumbnail: thumbnailParticles,
-    description: "Website gốm sứ",
+    description: "Gốm sứ Bát Tràng · website thương hiệu",
   },
   {
     title: "YoloShop",
     slug: "quibbo",
     thumbnail: thumbnailQuibbo,
-    description: "Giao diện cửa hàng",
+    description: "Thương mại điện tử thời trang · responsive",
   },
   {
     title: "TheMovie",
     slug: "sharkie",
     thumbnail: thumbnailSharkie,
-    description: "Ứng dụng khám phá phim",
+    description: "React · API trực tiếp · khám phá phim",
   },
 ] as const satisfies ProjectPreview[];

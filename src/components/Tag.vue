@@ -48,13 +48,13 @@ const classes = computed(() => ["tag", `tag-variant-${props.variant}`]);
     }
 
     &-html {
+      background-color: var(--color-grayscale-400);
       color: var(--color-text-400);
-      border-color: var(--color-grayscale-400);
     }
 
     &-css {
+      background-color: var(--color-grayscale-400);
       color: var(--color-text-400);
-      border-color: var(--color-grayscale-400);
     }
 
     &-javascript {

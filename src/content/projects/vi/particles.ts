@@ -9,7 +9,7 @@ export default {
   tags: ["html", "css", "javascript"],
   source: "https://github.com/Thanhlong0912/WebSiteGomSuBatTrang",
   description:
-    "Dự án website công khai về gốm sứ Bát Tràng, nằm trong các repository được ghim trên GitHub profile.<br/><br/>Repository có ngôn ngữ chính là HTML, kết hợp CSS và JavaScript cho trải nghiệm website.",
+    "Website thương hiệu cho gốm sứ Bát Tràng — một làng nghề truyền thống Việt Nam — xây dựng bằng HTML, CSS và JavaScript.<br/><br/>Một cửa hàng trưng bày sản phẩm kết hợp bản sắc hình ảnh ấm áp với bố cục gọn gàng, đưa nghề thủ công truyền thống thành trải nghiệm web hiện đại.",
   components: [
     {
       type: "media",

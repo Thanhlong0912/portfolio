@@ -41,6 +41,16 @@ html {
   height: calc(var(--svh) * 100);
 }
 
+:focus-visible {
+  outline: var(--stroke-md) solid var(--color-cyan-400);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
 ::selection {
   background: #2d2a24;
   color: rgb(255, 255, 255);

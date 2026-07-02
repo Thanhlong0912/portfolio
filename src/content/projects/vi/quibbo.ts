@@ -10,7 +10,7 @@ export default {
   live: "https://yoloshop123.netlify.app",
   source: "https://github.com/Thanhlong0912/YoloShop",
   description:
-    "Dự án giao diện cửa hàng công khai trong nhóm repository được ghim trên GitHub.<br/><br/>Repository chủ yếu dùng CSS, tập trung vào front-end và phù hợp với stack HTML, CSS, JavaScript cùng triển khai giao diện.",
+    "Website bán hàng thời trang responsive, xây dựng từ đầu bằng HTML, CSS và JavaScript thuần.<br/><br/>Lưới sản phẩm, slider khuyến mãi và bố cục hướng đến trang thanh toán — một bài thực hành front-end về căn chỉnh khoảng cách, typography và breakpoint responsive mà không dựa vào framework.",
   components: [
     {
       type: "media",

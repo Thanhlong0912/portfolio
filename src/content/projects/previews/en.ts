@@ -10,24 +10,24 @@ export default [
     title: "tiktok-clone",
     slug: "streakon",
     thumbnail: thumbnailStreakon,
-    description: "Next.js 13 TikTok-style app",
+    description: "Next.js 13 · TypeScript · social video feed",
   },
   {
     title: "WebSiteGomSuBatTrang",
     slug: "particles",
     thumbnail: thumbnailParticles,
-    description: "Ceramics website",
+    description: "Bat Trang ceramics · brand website",
   },
   {
     title: "YoloShop",
     slug: "quibbo",
     thumbnail: thumbnailQuibbo,
-    description: "Shop interface project",
+    description: "Fashion e-commerce · responsive storefront",
   },
   {
     title: "TheMovie",
     slug: "sharkie",
     thumbnail: thumbnailSharkie,
-    description: "Movie discovery app",
+    description: "React · live API · movie discovery",
   },
 ] as const satisfies ProjectPreview[];
