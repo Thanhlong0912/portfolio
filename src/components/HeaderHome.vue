@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HeaderLink from "./HeaderLink.vue";
-import { onMounted, ref } from "vue";
+import { onMounted, onUnmounted, ref, nextTick } from "vue";
 import { t } from "../i18n/utils/translate";
 import { lenis } from "../composables/useScroll";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -28,17 +28,22 @@ const ITEM_WIDTH = 128;
 
 const { isDarkTheme, hasScrolledIntoView } = useHeaderTheme();
 
+const triggers: ScrollTrigger[] = [];
+
 const updateBarPosition = () => {
   const index = sections.indexOf(activeLink.value as ActiveLink);
   const left = index * ITEM_WIDTH;
-  barStyle.value = {
-    transform: `translateX(${left}px)`,
-  };
+  const transform = `translateX(${left}px)`;
+
+  // Skip identical writes so an unchanged bar position doesn't force a render
+  if (barStyle.value.transform === transform) return;
+
+  barStyle.value = { transform };
 };
 
 onMounted(() => {
   sections.forEach((section) => {
-    ScrollTrigger.create({
+    const trigger = ScrollTrigger.create({
       trigger: `#${section}`,
       start: section === "about" ? "top 22.5%" : "top center",
       end: "bottom center",
@@ -53,11 +58,18 @@ onMounted(() => {
       onLeave: () => (activeLink.value = null),
       onLeaveBack: () => (activeLink.value = null),
     });
+
+    triggers.push(trigger);
   });
 
-  ScrollTrigger.refresh();
+  nextTick(() => ScrollTrigger.refresh());
 
   isMounted.value = true;
+});
+
+onUnmounted(() => {
+  triggers.forEach((trigger) => trigger.kill());
+  triggers.length = 0;
 });
 </script>
 

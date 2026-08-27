@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import Button from "./Button.vue";
 import Logo from "./Logo.vue";
-import { computed, ref } from "vue";
+import { computed, nextTick, ref, watch } from "vue";
 import { t } from "../i18n/utils/translate";
 import { useHeaderTheme } from "../composables/useHeaderTheme";
 import { lenis } from "../composables/useScroll";
 import { projectId } from "../composables/useRouteObserver";
-import { social } from "../content/social";
+import { isTransitioning } from "../composables/useProjectTransition";
 import ButtonRound from "./ButtonRound.vue";
 import ArrowRight from "./icons/ArrowRight.vue";
 import SoundsToggle from "./SoundsToggle.vue";
@@ -46,6 +46,34 @@ const handleBackClick = () => {
 const handleLogoClick = () => {
   if (!lenis.value) return;
   lenis.value.scrollTo(0);
+};
+
+const CONTACT_ANCHOR = "#contact";
+
+const scrollToContact = () => {
+  lenis.value?.scrollTo(CONTACT_ANCHOR);
+};
+
+const handleGetInTouchClick = (event: MouseEvent) => {
+  // Leave open-in-new-tab intents to the browser and the real href
+  if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+
+  event.preventDefault();
+
+  if (projectId.value === null) {
+    scrollToContact();
+    return;
+  }
+
+  // From a project page: go home first, then scroll once the route transition
+  // has settled and the home layout is back in flow
+  router.push("/");
+
+  const stop = watch(isTransitioning, (transitioning) => {
+    if (transitioning) return;
+    stop();
+    nextTick(scrollToContact);
+  });
 };
 
 const classNames = computed(() => {
@@ -100,10 +128,11 @@ const getInTouchClassNames = computed(() => {
         renderAs="a"
         variant="accent"
         :aria-label="t('get-in-touch')"
-        :href="social.find((item) => item.name === 'github')?.url ?? ''"
-        external
+        href="/#contact"
         :class="getInTouchClassNames"
+        @click="handleGetInTouchClick"
         data-cursor="circle-white"
+        data-sound="click"
         data-hoversound="hover"
         >{{ t("get-in-touch") }}</Button
       >
