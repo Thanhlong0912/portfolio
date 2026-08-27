@@ -7,10 +7,10 @@ import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "tiktok-clone",
+    title: "Short-Video Social Platform",
     slug: "streakon",
     thumbnail: thumbnailStreakon,
-    description: "Next.js 13 · TypeScript · social video feed",
+    description: "Supabase · PostgreSQL ranking · no server tier",
   },
   {
     title: "WebSiteGomSuBatTrang",

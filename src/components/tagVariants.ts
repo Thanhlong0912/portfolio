@@ -17,6 +17,7 @@ export type TagVariant =
   | "firebase"
   | "kubernetes"
   | "postgresql"
+  | "supabase"
   | "ogl"
   | "glsl";
 
@@ -39,6 +40,7 @@ export const tagLabels = {
   firebase: "Firebase",
   kubernetes: "Kubernetes",
   postgresql: "PostgreSQL",
+  supabase: "Supabase",
   ogl: "OGL.js",
   glsl: "GLSL",
 } as const satisfies Record<TagVariant, string>;

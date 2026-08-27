@@ -112,6 +112,11 @@ const classes = computed(() => ["tag", `tag-variant-${props.variant}`]);
       color: white;
     }
 
+    &-supabase {
+      background-color: #3ecf8e;
+      color: #04231a;
+    }
+
     &-ogl {
       background-color: #0e5495;
       color: white;
