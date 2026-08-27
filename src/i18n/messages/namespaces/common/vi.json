@@ -1,7 +1,7 @@
 {
   "about": "Giới thiệu",
-  "about-intro": "Lập trình viên full-stack tại TP Hồ Chí Minh.<br/>Tôi thiết kế và xây dựng ứng dụng web từ đầu đến cuối — từ giao diện React đến API Node.js và mô hình dữ liệu MongoDB — chú trọng kiến trúc gọn gàng và những chi tiết khiến sản phẩm hoàn thiện.",
-  "about-tagline": "Tôi biến ý tưởng thành ứng dụng web chạy thật — React ở giao diện, Node.js và MongoDB phía sau, TypeScript xuyên suốt.",
+  "about-intro": "Kỹ sư full-stack tại TP Hồ Chí Minh.<br/>Tôi xây dựng hệ thống chạy thật từ đầu đến cuối — API NestJS và Express trên MongoDB và Redis, giao diện Next.js phía trên, cùng những migration chạy trực tiếp trên dữ liệu thật.",
+  "about-tagline": "Ba năm xây dựng hệ thống chạy thật từ đầu đến cuối — API NestJS và Express trên MongoDB và Redis, Next.js ở giao diện.",
   "back-to-home": "Quay về trang chủ",
   "original-concept-by": "Ý tưởng gốc của",
   "contact": "Liên hệ",
@@ -10,7 +10,7 @@
   "enable-sounds": "Bật âm thanh",
   "get-in-touch": "Liên hệ với tôi",
   "go-to": "Đi tới",
-  "job-title": "Lập trình viên JavaScript full-stack",
+  "job-title": "Kỹ sư full-stack",
   "lets-work-together": "Cùng làm việc<br/> với nhau!",
   "legal": "Thông báo pháp lý",
   "live-view": "Xem trực tiếp",

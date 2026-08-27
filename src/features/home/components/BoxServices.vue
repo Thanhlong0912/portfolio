@@ -107,21 +107,21 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
 };
 
 const SERVICES_EN = [
-  { name: "TypeScript & modern JavaScript" },
-  { name: "React, Next.js & Redux" },
-  { name: "Node.js, Express & REST APIs" },
-  { name: "MongoDB, Mongoose & data modeling" },
-  { name: "Tailwind CSS & responsive UI" },
-  { name: "Git, Firebase & Vercel" },
+  { name: "TypeScript, JavaScript & SQL" },
+  { name: "NestJS, Node.js & Express" },
+  { name: "Next.js & React" },
+  { name: "MongoDB, Mongoose & Redis" },
+  { name: "Socket.IO, REST & JWT auth" },
+  { name: "Supabase, AWS S3 & Docker" },
 ] as const satisfies { name: string }[];
 
 const SERVICES_VI = [
-  { name: "TypeScript & JavaScript hiện đại" },
-  { name: "React, Next.js & Redux" },
-  { name: "Node.js, Express & REST API" },
-  { name: "MongoDB, Mongoose & mô hình dữ liệu" },
-  { name: "Tailwind CSS & giao diện responsive" },
-  { name: "Git, Firebase & Vercel" },
+  { name: "TypeScript, JavaScript & SQL" },
+  { name: "NestJS, Node.js & Express" },
+  { name: "Next.js & React" },
+  { name: "MongoDB, Mongoose & Redis" },
+  { name: "Socket.IO, REST & xác thực JWT" },
+  { name: "Supabase, AWS S3 & Docker" },
 ] as const satisfies { name: string }[];
 
 const services = computed(() => {
